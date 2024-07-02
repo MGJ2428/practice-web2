@@ -1,0 +1,90 @@
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style>
+      #Banner{
+        height: 650px;
+        width: 100%;
+        object-fit:cover;
+        margin-bottom: 4rem !important;
+      }
+      .custom-margin{
+        margin-top: 2rem !important;
+       margin-bottom: 4rem !important;
+      }
+      .custom-margin2{
+        margin-top: 6rem !important;
+        margin-bottom: 4rem !important;
+      }
+  
+    </style>
+  </head>
+    <title>Mayanksbadmintonclub</title>
+    <body>
+      {% include 'Nav.html'%}
+      <img class="img-fluid" id="Banner"
+        src="https://948b94f7-cc3d-49de-80e6-1d37b5546cbe-00-3rxxvgsqbm4km.kirk.replit.dev/static/muktasim-azlan-rjWfNR_AC5g-unsplash.jpg">
+      <div class="container">
+        <h1 class="text-center custom-margin">Mayank's Badminton Club</h1>
+        <h2 class="text-center custom-margin2"">About Mayank's Badminton Club</h2>
+        <div class="row" style="margin-bottom:50px">
+          <div class="col-sm-6">
+            <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="/static/badmintonimage.jpg" style = "height:320px";>
+          </div>     
+        </div>
+        <h2 class="text-center">Our timings and achievements</h2>
+        <p class="lead text-center" style="margin-bottom: 2rem;">We are the best badminton club in berkshire and we strive to win every single game we play. Hopefully, we can become the best in the world.
+        </p>
+        <div class="text-center" style="margin-bottom:2rem">
+          <a href="mailto:mayankjagadish@icloud.com?subject=Request to join club." type="button" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+      <div class="row"">
+        <div class="col-xsm-1 text-center">
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+        <div class="col-xsm-1 text-center">
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+        <div class="col-xsm-1 text-center">
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+        <div class="col-xsm-1 text-center">
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:2rem;">
+        {% include 'Footer.html' %}
+      </div>
+    </body>
+</html>
